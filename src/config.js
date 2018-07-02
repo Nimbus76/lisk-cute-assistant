@@ -8,6 +8,8 @@ exports.diffBlockHeight = 2; // The difference of block heights between your nod
 exports.minBlockHeightNodeMatch = -3; // The difference of block heights between your node and the others before triggering an alarm
 exports.rebootWelcome = true; // The reboot telegram message
 
+exports.publicKey = ""; // Public Key of your forging delegate
+
 exports.executeBlockHeightsCron = true;
 exports.executeServerStatusCron = false;
 exports.cpuThreshold = 90; // Sends a notification to the user when cpu usage is over this %
