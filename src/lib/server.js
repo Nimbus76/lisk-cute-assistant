@@ -8,7 +8,7 @@ const respondServerStatus = async () => {
     bash lisk.sh status
     echo
     echo Forging:
-    curl -s http://127.0.0.1:7000/api/node/status/forging?publicKey=${settings.publicKey} | jq -r '.data[0].forging'
+    curl -s ${settings.localNodeURS}/forging?publicKey=${settings.publicKey} | jq -r '.data[0].forging'
     echo
     echo CPU Usage:
     grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
