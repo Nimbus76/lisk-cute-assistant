@@ -2,14 +2,14 @@ This is a fork of Lisk Cute Assistant.  Modifications have been made to allow co
 
 ## Installation:
 
-Telegram:
+__*Telegram:*__
 
 Search for @BotFather on Telegram
 send /newbot message to @BotFather & follow prompts.
 Copy HTTP API token
 
 
-Install NodeJS:
+__*Install NodeJS:*__
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
@@ -19,11 +19,11 @@ sudo npm install -g n
 
 sudo n 6.14.1
 
-Install Git:
+__*Install Git:*__
 
 sudo apt-get install git
 
-Install Lisk Cute Assistant:
+__*Install Lisk Cute Assistant:*__
 
 git clone https://github.com/Nimbus76/lisk-cute-assistant
 
@@ -32,6 +32,8 @@ cd lisk-cute-assistant/
 checkout testnet
 
 npm install
+
+__*Setup*__
 
 npm run generate-password
 
