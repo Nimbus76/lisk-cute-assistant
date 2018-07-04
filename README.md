@@ -1,3 +1,5 @@
+This is a fork of Lisk Cute Assistant.  Modifications have been made to allow compatability with Core 1.0.  The config.js file is set up for testnet, so no need to swap the sample testnet config file in.  In addition, the server.js file has been modified so that the server status call also shows whether Forging is set to true or false.  
+
 # Lisk Cute Assistant
 
 
