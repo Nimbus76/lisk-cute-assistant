@@ -1,5 +1,46 @@
 This is a fork of Lisk Cute Assistant.  Modifications have been made to allow compatability with Core 1.0.  The config.js file is set up for testnet, so no need to swap the sample testnet config file in.  In addition, the server.js file has been modified so that the server status call also shows whether Forging is set to true or false.  
 
+## Installation:
+
+Telegram:
+
+Search for @BotFather on Telegram
+send /newbot message to @BotFather & follow prompts.
+Copy HTTP API token
+
+
+Install NodeJS:
+
+curl -sL httpnpm run generate-password
+s://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo npm install -g n
+sudo n 6.14.1
+
+Install Git:
+
+sudo apt-get install git
+
+Install Lisk Cute Assistant:
+
+git clone https://github.com/Nimbus76/lisk-cute-assistant
+cd lisk-cute-assistant/
+checkout testnet
+npm install
+
+npm run generate-password
+Scan QR Code with Google Authenticator or Authy to set up 2FA
+Copy the generated secret and paste into the variable exports.OTPsecret inside the src/config.js file.
+Copy the previously generated telegram API into the variable exports.telegramAPIToken inside the src/config.js file.
+npm start
+Write to your bot and it will return you the chat id. Copy this chat id into the variable exports.chatId inside the src/config.js file.
+In the alternative, you can msg @cid_bot on Telegram to get your chat ID.
+
+npm stop
+npm start
+/test 2FA-Code to test your 2FA password.  Ex. /test 123456
+
+
 # Lisk Cute Assistant
 
 
