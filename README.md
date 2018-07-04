@@ -26,8 +26,11 @@ sudo apt-get install git
 Install Lisk Cute Assistant:
 
 git clone https://github.com/Nimbus76/lisk-cute-assistant
+
 cd lisk-cute-assistant/
+
 checkout testnet
+
 npm install
 
 npm run generate-password
