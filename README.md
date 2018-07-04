@@ -11,8 +11,7 @@ Copy HTTP API token
 
 Install NodeJS:
 
-curl -sL httpnpm run generate-password
-s://deb.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo npm install -g n
 sudo n 6.14.1
