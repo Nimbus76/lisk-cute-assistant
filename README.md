@@ -12,8 +12,11 @@ Copy HTTP API token
 Install NodeJS:
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+
 sudo apt-get install -y nodejs
+
 sudo npm install -g n
+
 sudo n 6.14.1
 
 Install Git:
