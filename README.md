@@ -34,15 +34,23 @@ checkout testnet
 npm install
 
 npm run generate-password
+
 Scan QR Code with Google Authenticator or Authy to set up 2FA
+
 Copy the generated secret and paste into the variable exports.OTPsecret inside the src/config.js file.
+
 Copy the previously generated telegram API into the variable exports.telegramAPIToken inside the src/config.js file.
+
 npm start
+
 Write to your bot and it will return you the chat id. Copy this chat id into the variable exports.chatId inside the src/config.js file.
+
 In the alternative, you can msg @cid_bot on Telegram to get your chat ID.
 
 npm stop
+
 npm start
+
 /test 2FA-Code to test your 2FA password.  Ex. /test 123456
 
 
