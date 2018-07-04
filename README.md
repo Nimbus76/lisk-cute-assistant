@@ -17,7 +17,7 @@ sudo apt-get install -y nodejs
 
 sudo npm install -g n
 
-sudo n 6.14.1
+sudo n 8.9.4
 
 __*Install Git:*__
 
