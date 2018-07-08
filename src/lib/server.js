@@ -18,7 +18,7 @@ const respondServerStatus = async () => {
     df /home | awk '{ print $5 }' | tail -n 1
     echo
     echo RAM Usage:
-    free | grep Mem | awk '{print $3/$2 * 100.0}'
+    free | grep Mem | awk '{print $3/$2 * 100.0 usage "%"}'
   `;
 
   exec(serverStatusExec, function(err, stdout, stderr) {
